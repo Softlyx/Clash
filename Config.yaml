@@ -1,0 +1,345 @@
+# 下载配置后,请手动添加机场订阅
+# 找到 {远程订阅} 部分，将MyProxy 部分的 url替换为自己的机场订阅链接  
+
+subscribe-url: 你的订阅链接
+# 替换上面文字用于Stash获取机场流量信息并在主页显示
+
+#混合端口
+mixed-port: 7890
+#允许局域网
+allow-lan: true
+#绑定地址
+bind-address: '*'
+#模式:rule（规则） / global（全局代理）/ direct（全局直连）
+mode: Rule
+#日志级别（日志输出级别：分级如后silent / info / warning / error / debug级别越高日志输出量越大）
+log-level: silent
+#外部控制器
+external-controller: 127.0.0.1:9090
+
+#DNS设置
+dns:
+  enable: true
+  listen: 0.0.0.0:1053
+  #DNS服务器
+  default-nameserver:
+    - 119.29.29.29
+    - 119.28.28.28
+    - 223.5.5.5
+    - 114.114.114.114
+  #DoH服务器
+  nameserver:
+    - https://dns.alidns.com/dns-query
+    - https://doh.dns.sb/dns-query
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  #列表中的域名将不会被解析为fake ip，这些域名相关的解析请求将会返回它们真实的IP地址
+  fake-ip-filter:
+    - '*.lan'
+    - localhost.ptlogin2.qq.com
+    - '+.srv.nintendo.net'
+    - '+.stun.playstation.net'
+    - '+.msftconnecttest.com'
+    - '+.msftncsi.com'
+    - '+.xboxlive.com'
+    - 'msftconnecttest.com'
+    - 'xbox.*.microsoft.com'
+    - '*.battlenet.com.cn'
+    - '*.battlenet.com'
+    - '*.blzstatic.cn'
+    - '*.battle.net'
+
+#本地代理
+proxies:
+
+#远程订阅
+proxy-providers:
+
+  MyProxy: &MyProxy #建立锚点
+    url: "https://sub.store/download/collection/MySub"
+    # 使用Clash类型订阅链接替换掉引号""内的链接使用。
+    # 或可使用通用订阅链接通过Sub-Store进行订阅转换。
+    interval: 86400
+    health-check:
+      enable: true
+      interval: 3600
+      url: http://cp.cloudflare.com/generate_204
+    
+  #美国节点
+  MyProxy-US:
+    <<: *MyProxy #引用锚点内容
+    filter: "(?=.*(美|US|🇺🇸|(?i)States|American))^((?!(港|台|日|韩|新)).)*$"
+  
+  #香港节点
+  MyProxy-HK:
+    <<: *MyProxy #引用锚点内容
+    filter: "(?=.*(港|HK|🇭🇰|(?i)Hong))^((?!(台|日|韩|新|美)).)*$"
+  
+  #日本节点
+  MyProxy-JP:
+    <<: *MyProxy #引用锚点内容
+    filter: "(?=.*(日|JP|🇯🇵|(?i)Japan))^((?!(港|台|韩|新|美|利亚)).)*$"
+  
+  #台湾节点
+  MyProxy-TW:
+    <<: *MyProxy #引用锚点内容
+    filter: "(?=.*(台|TW|(?i)Taiwan))^((?!(港|日|韩|新|美)).)*$"
+  
+  #新加坡节点
+  MyProxy-SG:
+    <<: *MyProxy #引用锚点内容
+    filter: "(?=.*(新|狮|獅|SG|🇸🇬|(?i)Singapore))^((?!(港|台|日|韩|美)).)*$"
+
+  #越南节点
+  MyProxy-VN:
+    <<: *MyProxy #引用锚点内容
+    filter: "(?=.*(越|VN|(?i) Việt Nam|Hà|Hồ|🇻🇳))^((?!(台|日|韩|新|美)).)*$"
+
+  #国际节点
+  MyProxy-GJ:
+    <<: *MyProxy #引用锚点内容
+    filter: "(?=.*)^((?!(港|HK|日|JP|台|TW|越|VN|新|SG|美|US|🇨🇳|🇭🇰|🇺🇸|🇯🇵|🇻🇳|🇸🇬)).)*$"
+
+
+#策略组
+proxy-groups:
+
+  - name: Proxy
+    type: select
+    use:
+      - MyProxy
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Available_1.png
+
+  - name: 自动选择
+    type: url-test
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Rocket.png
+    use: 
+       - MyProxy
+    url: "http://cp.cloudflare.com/generate_204"
+    interval: 300
+
+  - name: Fallback
+    type: fallback
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Available.png
+    use:
+      - MyProxy
+    url: "http://cp.cloudflare.com/generate_204"
+    interval: 300
+
+  - name: US 美国
+    type: url-test
+    icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/US.png
+    use:
+      - MyProxy-US
+    url: "http://cp.cloudflare.com/generate_204"
+    interval: 300
+
+  - name: HK 香港
+    type: url-test
+    icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/HK.png
+    use:
+      - MyProxy-HK
+    url: "http://cp.cloudflare.com/generate_204"
+    interval: 300
+  
+  - name: JP 日本
+    type: url-test
+    icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/JP.png
+    use:
+      - MyProxy-JP
+    url: "http://cp.cloudflare.com/generate_204"
+    interval: 300
+  
+  - name: TW 台湾
+    type: url-test
+    icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/TW.png
+    use:
+      - MyProxy-TW
+    url: "http://cp.cloudflare.com/generate_204"
+    interval: 300
+  
+  - name: SG 新加坡
+    type: url-test
+    icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/SG.png
+    use:
+      - MyProxy-SG
+    url: "http://cp.cloudflare.com/generate_204"
+    interval: 300
+
+	name: VN 越南
+    type: url-test
+    icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/VN.png
+    use:
+      - MyProxy-VN
+    url: "http://cp.cloudflare.com/generate_204"
+    interval: 300
+  
+  - name: 全球
+    type: select
+    proxies: &G
+      - 自动选择
+      - Fallback
+      - US 美国
+      - HK 香港
+      - JP 日本
+      - TW 台湾
+      - SG 新加坡
+      - 漏网之鱼
+      - DIRECT
+    icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/UN.png
+  
+  - name: 国外媒体
+    type: select
+    proxies:
+      *G
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube.png
+  
+  - name: TikTok
+    type: select
+    proxies:
+      *G
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/TikTok.png
+  
+  - name: 国际社交
+    type: select
+    proxies:
+      *G
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Google_Search.png
+  
+  - name: Speedtest
+    type: select
+    proxies:
+      *G
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Speedtest.png
+  
+  - name: Apple
+    type: select
+    proxies:
+      *G
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple.png
+  
+  - name: 全球加速
+    type: select
+    proxies:
+      *G
+    icon: https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/img/dragonball/1.PNG
+  
+  - name: 国内服务
+    type: select
+    proxies:
+      - DIRECT
+      - 自动选择
+      - Fallback
+      - US 美国
+      - HK 香港
+      - JP 日本
+      - TW 台湾
+      - SG 新加坡
+      - 漏网之鱼
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/China.png
+  
+  - name: 漏网之鱼
+    type: select
+    proxies:
+      - Proxy
+      - DIRECT
+    icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Final.png
+
+#远程规则集合
+rule-providers:
+    
+  Netflix-rules:
+    behavior: classical
+    interval: 86400
+    name: 国际媒体
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Netflix/Netflix.yaml
+
+  Disney-rules:
+    behavior: classical
+    interval: 86400
+    name: 国际媒体
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Disney/Disney.yaml
+
+  HBO-rules:
+    behavior: classical
+    interval: 86400
+    name: 国际媒体
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/HBO/HBO.yaml
+
+  Youtube-rules:
+    behavior: classical
+    interval: 86400
+    name: 国际媒体
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/YouTube/YouTube.yaml
+
+  TikTok-rules:
+    behavior: classical
+    interval: 86400
+    name: TikTok
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/TikTok/TikTok.yaml
+
+  Telegram-rules:
+    behavior: classical
+    interval: 86400
+    name: 国际社交
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Telegram/Telegram.yaml
+
+  Twitter-rules:
+    behavior: classical
+    interval: 86400
+    name: Twitter
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Twitter/Twitter.yaml
+
+  Speedtest-rules:
+    behavior: classical
+    interval: 86400
+    name: Speedtest
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Speedtest/Speedtest.yaml
+
+  Apple-rules:
+    behavior: classical
+    interval: 86400
+    name: Apple
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Apple/Apple.yaml
+
+  Google-rules:
+    behavior: classical
+    interval: 86400
+    name: 全球加速
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Google/Google.yaml
+
+  Mainland-rules:
+    behavior: classical
+    interval: 86400
+    name: 国内服务
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/China/China.yaml
+
+  MainlandIP-rules:
+    behavior: ipcidr
+    interval: 86400
+    name: 国内服务
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/ChinaIPs/ChinaIPs_IP.yaml
+
+  Global-rules:
+    behavior: classical
+    interval: 86400
+    name: 全球加速
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Global/Global_Classical.yaml
+
+#分流规则引用
+rules:
+  - RULE-SET,Netflix-rules,国际媒体
+  - RULE-SET,Disney-rules,国际媒体
+  - RULE-SET,HBO-rules,国际媒体
+  - RULE-SET,Youtube-rules,国际媒体
+  - RULE-SET,TikTok-rules,TikTok
+  - RULE-SET,Telegram-rules,国际社交
+  - RULE-SET,Twitter-rules,国际社交
+  - RULE-SET,Speedtest-rules,Speedtest
+  - RULE-SET,Apple-rules,Apple
+  - RULE-SET,Google-rules,全球加速
+  - RULE-SET,Mainland-rules,国内服务
+  - RULE-SET,MainlandIP-rules,国内服务
+  - RULE-SET,Global-rules,全球加速
+  - GEOIP,CN,DIRECT
+  - MATCH,漏网之鱼
