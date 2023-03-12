@@ -1,3 +1,5 @@
+# Odyssey+
+DOMAIN-KEYWORD, odysseyplus
 # Cc公益服
 DOMAIN-KEYWORD,ccemby.tk
 # bigdongdong
@@ -28,8 +30,6 @@ DOMAIN-KEYWORD,media.nijigem.by
 # 猫熊
 DOMAIN-KEYWORD,emby.kim
 IP-CIDR,64.32.25.204/32,no-resolve
-# 佛系EMBY
-DOMAIN-KEYWORD,4545.cf
 # BlueSea
 DOMAIN-KEYWORD,blueseamusics.com
 DOMAIN-KEYWORD,blueseacdn.com
@@ -59,20 +59,10 @@ DOMAIN-KEYWORD,infinityfly.top
 # CatFish
 DOMAIN-KEYWORD,catfishemby.club
 DOMAIN-KEYWORD,66699.tk
-# gfwemby
-IP-CIDR,202.182.105.146/32,no-resolve
 # NMG Flim
 DOMAIN-KEYWORD,film.nmg.llc
 # Pornemby-网抑云
 IP-CIDR,195.201.86.86/32,no-resolve
-# 普拉斯
-DOMAIN-KEYWORD,xeton.dev
-# 啸风
-DOMAIN-KEYWORD,ppooqq.top
-IP-CIDR,205.185.125.106/32,no-resolve
-# Singularity
-DOMAIN-KEYWORD,deja-vu.beauty
-DOMAIN-KEYWORD,singularity
 # 白嫖王
 DOMAIN-KEYWORD,ywang.cf
 # hxd
@@ -80,14 +70,12 @@ DOMAIN-KEYWORD,222921.xyz
 # xiangling
 IP-CIDR,152.67.227.57/32,no-resolve
 DOMAIN-KEYWORD,20120714.xyz
-# 404公益服
-DOMAIN-KEYWORD,404.sb
-# 七米蓝
-DOMAIN-KEYWORD,chirmyram.com
+# 纸片人
+DOMAIN-KEYWORD,embyplus.org
+# Moonlight
+DOMAIN-KEYWORD,1100000.xyz
 # 开心520
 DOMAIN-KEYWORD,ucu520.top
-# 相声小品
-DOMAIN-KEYWORD,xiaoya.pro
 # 通用
 DOMAIN-KEYWORD,emby
 DOMAIN-KEYWORD,jellyfin
