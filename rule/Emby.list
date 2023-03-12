@@ -1,8 +1,10 @@
+# Odyssey+
+DOMAIN-KEYWORD, odysseyplus
 # Cc公益服
 DOMAIN-KEYWORD,ccemby.tk
 # bigdongdong
 DOMAIN-KEYWORD,bddup.com
-IP-CIDR,124.95.187.106/32
+IP-CIDR,124.95.187.106/32,no-resolve
 # Misty
 DOMAIN-KEYWORD,aaa.ax
 # 品云
@@ -11,7 +13,7 @@ DOMAIN-KEYWORD,embyplus.club
 DOMAIN-KEYWORD,mjjemby.org
 # peach公益服
 DOMAIN-KEYWORD,embymv.tk
-IP-CIDR, 209.97.173.144/32
+IP-CIDR, 209.97.173.144/32,no-resolve
 # Orange
 DOMAIN-KEYWORD,embytv.cf
 # Polo
@@ -27,17 +29,15 @@ DOMAIN-KEYWORD,emby.ml
 DOMAIN-KEYWORD,media.nijigem.by
 # 猫熊
 DOMAIN-KEYWORD,emby.kim
-IP-CIDR,64.32.25.204/32
-# 佛系EMBY
-DOMAIN-KEYWORD,4545.cf
+IP-CIDR,64.32.25.204/32,no-resolve
 # BlueSea
 DOMAIN-KEYWORD,blueseamusics.com
 DOMAIN-KEYWORD,blueseacdn.com
 # 奶库
 DOMAIN-KEYWORD,nakonako.net
 DOMAIN-KEYWORD,nakoemby.com
-IP-CIDR,20.205.38.244/32
-IP-CIDR,95.217.228.36/32
+IP-CIDR,20.205.38.244/32,no-resolve
+IP-CIDR,95.217.228.36/32,no-resolve
 # ikoumi
 DOMAIN-KEYWORD,ikoumi.com
 # paul
@@ -49,7 +49,7 @@ DOMAIN-KEYWORD,studyfun.live
 # 11盘
 DOMAIN-KEYWORD,bpking.top
 DOMAIN-KEYWORD,11pshare.tk
-IP-CIDR,18.141.10.156/32
+IP-CIDR,18.141.10.156/32,no-resolve
 # 杰尼龟
 DOMAIN-KEYWORD,dmesg.gq
 # viper
@@ -59,33 +59,24 @@ DOMAIN-KEYWORD,infinityfly.top
 # CatFish
 DOMAIN-KEYWORD,catfishemby.club
 DOMAIN-KEYWORD,66699.tk
-# gfwemby
-IP-CIDR,202.182.105.146/32
 # NMG Flim
 DOMAIN-KEYWORD,film.nmg.llc
 # Pornemby-网抑云
-IP-CIDR,195.201.86.86/32
-# 普拉斯
-DOMAIN-KEYWORD,xeton.dev
-# 啸风
-DOMAIN-KEYWORD,ppooqq.top
-IP-CIDR,205.185.125.106/32
-# Singularity
-DOMAIN-KEYWORD,deja-vu.beauty
-DOMAIN-KEYWORD,singularity
+IP-CIDR,195.201.86.86/32,no-resolve
 # 白嫖王
 DOMAIN-KEYWORD,ywang.cf
 # hxd
 DOMAIN-KEYWORD,222921.xyz
 # xiangling
-IP-CIDR,152.67.227.57/32
+IP-CIDR,152.67.227.57/32,no-resolve
 DOMAIN-KEYWORD,20120714.xyz
-# 404公益服
-DOMAIN-KEYWORD,404.sb
-# 七米蓝
-DOMAIN-KEYWORD,chirmyram.com
+# 纸片人
+DOMAIN-KEYWORD,embyplus.org
+# Moonlight
+DOMAIN-KEYWORD,1100000.xyz
 # 开心520
 DOMAIN-KEYWORD,ucu520.top
 # 通用
 DOMAIN-KEYWORD,emby
 DOMAIN-KEYWORD,jellyfin
+DOMAIN-KEYWORD,alist
