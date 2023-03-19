@@ -25,8 +25,6 @@ DOMAIN-KEYWORD,charontv.com
 DOMAIN-KEYWORD,misakaf.org
 # 垃圾影音
 DOMAIN-KEYWORD,emby.ml
-# 二次元
-DOMAIN-KEYWORD,media.nijigem.by
 # 猫熊
 DOMAIN-KEYWORD,emby.kim
 IP-CIDR,64.32.25.204/32,no-resolve
@@ -46,7 +44,7 @@ DOMAIN-KEYWORD,bookpan.top
 # studyfun
 DOMAIN-KEYWORD,studyfun999.xyz
 DOMAIN-KEYWORD,studyfun.live
-# 11盘
+# 国际服
 DOMAIN-KEYWORD,bpking.top
 DOMAIN-KEYWORD,11pshare.tk
 IP-CIDR,18.141.10.156/32,no-resolve
@@ -56,9 +54,6 @@ DOMAIN-KEYWORD,dmesg.gq
 DOMAIN-KEYWORD,agon.cf
 # Infinity
 DOMAIN-KEYWORD,infinityfly.top
-# CatFish
-DOMAIN-KEYWORD,catfishemby.club
-DOMAIN-KEYWORD,66699.tk
 # NMG Flim
 DOMAIN-KEYWORD,film.nmg.llc
 # Pornemby-网抑云
@@ -67,17 +62,19 @@ IP-CIDR,195.201.86.86/32,no-resolve
 DOMAIN-KEYWORD,ywang.cf
 # hxd
 DOMAIN-KEYWORD,222921.xyz
-# xiangling
+# 野鸡服
 IP-CIDR,152.67.227.57/32,no-resolve
 DOMAIN-KEYWORD,20120714.xyz
+# LION
+IP-CIDR,139.9.61.95/32,no-resolve
 # 纸片人
 DOMAIN-KEYWORD,embyplus.org
 # Moonlight
 DOMAIN-KEYWORD,1100000.xyz
 # Mulgore
 DOMAIN-KEYWORD,202.61.255.248
-# 开心520
-DOMAIN-KEYWORD,ucu520.top
+# tank
+DOMAIN-KEYWORD,tank88.top
 # 通用
 DOMAIN-KEYWORD,emby
 DOMAIN-KEYWORD,jellyfin
