@@ -1,83 +1,113 @@
-# Odyssey+
-DOMAIN-KEYWORD, odysseyplus
-# Cc公益服
-DOMAIN-KEYWORD,ccemby.tk
-# bigdongdong
+# Acemby
+DOMAIN-KEYWORD,acemby.org
+
+# BDD
 DOMAIN-KEYWORD,bddup.com
 IP-CIDR,124.95.187.106/32,no-resolve
-# Misty
-DOMAIN-KEYWORD,aaa.ax
-# 品云
-DOMAIN-KEYWORD,embyplus.club
-# MJJ EMBY
-DOMAIN-KEYWORD,mjjemby.org
-# peach公益服
-DOMAIN-KEYWORD,embymv.tk
-IP-CIDR, 209.97.173.144/32,no-resolve
-# Orange
-DOMAIN-KEYWORD,embytv.cf
-# Polo
-DOMAIN-KEYWORD,poloemby.xyz
-DOMAIN-KEYWORD,pololine.ml
-# 卡戎
-DOMAIN-KEYWORD,charontv.com
-# Misakaf
-DOMAIN-KEYWORD,misakaf.org
-# 垃圾影音
-DOMAIN-KEYWORD,emby.ml
-# 二次元
-DOMAIN-KEYWORD,media.nijigem.by
-# 猫熊
-DOMAIN-KEYWORD,emby.kim
-IP-CIDR,64.32.25.204/32,no-resolve
 # BlueSea
 DOMAIN-KEYWORD,blueseamusics.com
 DOMAIN-KEYWORD,blueseacdn.com
-# 奶库
+DOMAIN-KEYWORD,bsem.ddns.me
+# B白嫖王
+DOMAIN-KEYWORD,ywang.cf
+
+# Cc公益服
+DOMAIN-KEYWORD,ccemby.tk
+
+# G国际服
+DOMAIN-KEYWORD,11pshare.tk
+DOMAIN-KEYWORD,semby.ink
+IP-CIDR,18.141.10.156/32,no-resolve
+
+# Hxd
+DOMAIN-KEYWORD,222921.xyz
+DOMAIN-KEYWORD,bili.rip
+
+# Infinity
+DOMAIN-KEYWORD,infinityfly.top
+# ikoumi
+DOMAIN-KEYWORD,ikoumi.com
+
+# K卡戎
+DOMAIN-KEYWORD,charontv.com
+
+# L垃圾影音
+DOMAIN-KEYWORD,emby.ml
+# LION
+IP-CIDR,139.9.61.95/32,no-resolve
+
+# NMG Flim
+DOMAIN-KEYWORD,film.nmg.llc
+# N奶库
 DOMAIN-KEYWORD,nakonako.net
 DOMAIN-KEYWORD,nakoemby.com
 IP-CIDR,20.205.38.244/32,no-resolve
 IP-CIDR,95.217.228.36/32,no-resolve
-# ikoumi
-DOMAIN-KEYWORD,ikoumi.com
-# paul
-DOMAIN-KEYWORD,embypaul.top
-DOMAIN-KEYWORD,bookpan.top
-# studyfun
-DOMAIN-KEYWORD,studyfun999.xyz
-DOMAIN-KEYWORD,studyfun.live
-# 11盘
-DOMAIN-KEYWORD,bpking.top
-DOMAIN-KEYWORD,11pshare.tk
-IP-CIDR,18.141.10.156/32,no-resolve
-# 杰尼龟
-DOMAIN-KEYWORD,dmesg.gq
-# viper
-DOMAIN-KEYWORD,agon.cf
-# Infinity
-DOMAIN-KEYWORD,infinityfly.top
-# CatFish
-DOMAIN-KEYWORD,catfishemby.club
-DOMAIN-KEYWORD,66699.tk
-# NMG Flim
-DOMAIN-KEYWORD,film.nmg.llc
-# Pornemby-网抑云
-IP-CIDR,195.201.86.86/32,no-resolve
-# 白嫖王
-DOMAIN-KEYWORD,ywang.cf
-# hxd
-DOMAIN-KEYWORD,222921.xyz
-# xiangling
-IP-CIDR,152.67.227.57/32,no-resolve
-DOMAIN-KEYWORD,20120714.xyz
-# 纸片人
-DOMAIN-KEYWORD,embyplus.org
-# Moonlight
-DOMAIN-KEYWORD,1100000.xyz
+
+# MJJ EMBY
+DOMAIN-KEYWORD,mjjemby.org
+# Misty
+DOMAIN-KEYWORD,misty.ltd
+# Misakaf
+DOMAIN-KEYWORD,misakaf.org
+# M猫熊
+DOMAIN-KEYWORD,emby.kim
+IP-CIDR,64.32.25.204/32,no-resolve
 # Mulgore
 DOMAIN-KEYWORD,202.61.255.248
-# 开心520
-DOMAIN-KEYWORD,ucu520.top
+IP-CIDR,202.61.255.248/32,no-resolve
+# M萌萌
+DOMAIN-KEYWORD,syq0806,top
+# Moonlight
+DOMAIN-KEYWORD,1100000.xyz
+
+# Odyssey+
+DOMAIN-KEYWORD, odysseyplus
+# Orange
+DOMAIN-KEYWORD,embytv.cf
+# Onlyfans
+DOMAIN-KEYWORD,happyav.eu.org
+
+# Paul
+DOMAIN-KEYWORD,embypaul.top
+DOMAIN-KEYWORD,bookpan.top
+DOMAIN-KEYWORD,imetyou.top
+# P品云
+DOMAIN-KEYWORD,embyplus.club
+# Peach公益服
+DOMAIN-KEYWORD,embymv.tk
+IP-CIDR, 209.97.173.144/32,no-resolve
+# Polo
+DOMAIN-KEYWORD,poloemby.xyz
+DOMAIN-KEYWORD,pololine.ml
+# Pornemby-网抑云
+IP-CIDR,195.201.86.86/32,no-resolve
+
+# Studyfun
+DOMAIN-KEYWORD,studyfun999.xyz
+DOMAIN-KEYWORD,studyfun.live
+
+# T凸凸
+DOMAIN-KEYWORD,v.usxx.xyz
+DOMAIN-KEYWORD,xxlife.gay
+
+# Viper
+DOMAIN-KEYWORD,agon.cf
+
+# X星光璀璨
+DOMAIN-KEYWORD,emby.eu.org
+
+# Y野鸡服
+IP-CIDR,152.67.227.57/32,no-resolve
+DOMAIN-KEYWORD,20120714.xyz
+
+# Z纸片人
+DOMAIN-KEYWORD,embyplus.org
+DOMAIN,gd.9521732.xyz
+
+# Z杂乱的X
+DOMAIN-KEYWORD,dmesg.gq
+
 # 通用
 DOMAIN-KEYWORD,emby
 DOMAIN-KEYWORD,jellyfin
