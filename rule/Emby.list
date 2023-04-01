@@ -38,6 +38,8 @@ IP-CIDR,139.9.61.95/32,no-resolve
 
 # NMG Flim
 DOMAIN-KEYWORD,film.nmg.llc
+DOMAIN-KEYWORD,film.goodisp.org
+DOMAIN-KEYWORD,film.chinaisp.org
 # N奶库
 DOMAIN-KEYWORD,nakonako.net
 DOMAIN-KEYWORD,nakoemby.com
