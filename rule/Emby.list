@@ -56,6 +56,7 @@ IP-CIDR,64.32.25.204/32,no-resolve
 # Mulgore
 DOMAIN-KEYWORD,202.61.255.248
 IP-CIDR,202.61.255.248/32,no-resolve
+DOMAIN-KEYWORD,mulgore.net
 # M萌萌
 DOMAIN-KEYWORD,syq0806,top
 # Moonlight
