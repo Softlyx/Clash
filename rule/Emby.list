@@ -79,6 +79,8 @@ DOMAIN-KEYWORD,pololine.ml
 # Pornemby-网抑云
 IP-CIDR,195.201.86.86/32,no-resolve
 
+# 色拉
+DOMAIN-KEYWORD,emby.selaplane.com
 # Studyfun
 DOMAIN-KEYWORD,studyfun999.xyz
 DOMAIN-KEYWORD,studyfun.live
