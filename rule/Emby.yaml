@@ -35,11 +35,6 @@ IP-CIDR,139.9.61.95/32,no-resolve
 DOMAIN-KEYWORD,film.nmg.llc
 DOMAIN-KEYWORD,film.goodisp.org
 DOMAIN-KEYWORD,film.chinaisp.org
-# N奶库
-DOMAIN-KEYWORD,nakonako.net
-DOMAIN-KEYWORD,nakoemby.com
-IP-CIDR,20.205.38.244/32,no-resolve
-IP-CIDR,95.217.228.36/32,no-resolve
 
 # MJJ EMBY
 DOMAIN-KEYWORD,mjjemby.org
