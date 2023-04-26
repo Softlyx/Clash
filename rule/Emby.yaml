@@ -68,6 +68,7 @@ IP-CIDR, 209.97.173.144/32,no-resolve
 # Polo
 DOMAIN-KEYWORD,poloemby.xyz
 DOMAIN-KEYWORD,pololine.ml
+DOMAIN-KEYWORD,dnslink.ml
 # Pornemby-网抑云
 IP-CIDR,195.201.86.86/32,no-resolve
 
