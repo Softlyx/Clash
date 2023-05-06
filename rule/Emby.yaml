@@ -1,76 +1,69 @@
 # Acemby
-DOMAIN-KEYWORD,acemby.org
-DOMAIN-KEYWORD,zoxi.org
-DOMAIN-KEYWORD,zox.show
-
+DOMAIN-SUFFIX,acemby.org
+DOMAIN-SUFFIX,zox.show
 
 # BDD
-DOMAIN-KEYWORD,bddup.com
+DOMAIN-SUFFIX,bddup.com
 IP-CIDR,124.95.187.106/32,no-resolve
 
 # Cc公益服
 DOMAIN-KEYWORD,ccemby.tk
 
 # Didi影视
-DOMAIN-KEYWORD,newwan.top
+DOMAIN-SUFFIX,newwan.top
 
 # G国际服
-DOMAIN-KEYWORD,11pshare.tk
-DOMAIN-KEYWORD,semby.ink
+DOMAIN-SUFFIX,11pshare.tk
+DOMAIN-SUFFIX,semby.ink
 IP-CIDR,18.141.10.156/32,no-resolve
 
 # Hxd
-DOMAIN-KEYWORD,222921.xyz
-DOMAIN-KEYWORD,bili.rip
+DOMAIN-SUFFIX,bili.rip
 
 # ikoumi
-DOMAIN-KEYWORD,ikoumi.com
+DOMAIN-SUFFIX,ikoumi.com
 
 # L垃圾影音
-DOMAIN-KEYWORD,emby.ml
+DOMAIN-SUFFIX,emby.ml
 # LION
 IP-CIDR,139.9.61.95/32,no-resolve
 
 # NMG Flim
-DOMAIN-KEYWORD,film.nmg.llc
-DOMAIN-KEYWORD,film.goodisp.org
-DOMAIN-KEYWORD,film.chinaisp.org
+DOMAIN-SUFFIX,goodisp.org
 
 # Magci
-DOMAIN-KEYWORD,emby.freetz.top
+DOMAIN-SUFFIX,freetz.top
 # MJJ EMBY
-DOMAIN-KEYWORD,mjjemby.org
+DOMAIN-SUFFIX,mjjemby.org
 # Misty
-DOMAIN-KEYWORD,misty.ltd
+DOMAIN-SUFFIX,misty.ltd
 # Misakaf
-DOMAIN-KEYWORD,misakaf.org
+DOMAIN-SUFFIX,misakaf.org
 # Mulgore
 DOMAIN-KEYWORD,202.61.255.248
 IP-CIDR,202.61.255.248/32,no-resolve
-DOMAIN-KEYWORD,mulgore.net
+DOMAIN-SUFFIX,mulgore.net
 # Moonlight
-DOMAIN-KEYWORD,1100000.xyz
+DOMAIN-SUFFIX,1100000.xyz
 
 # Odyssey+
-DOMAIN-KEYWORD, odysseyplus
+DOMAIN-SUFFIX, odysseyplus.site
 # Orange
-DOMAIN-KEYWORD,embytv.cf
+DOMAIN-SUFFIX,embytv.cf
 # Onlyfans
-DOMAIN-KEYWORD,happyav.eu.org
+DOMAIN-SUFFIX,happyav.eu.org
 
 # Paul
-DOMAIN-KEYWORD,embypaul.top
-DOMAIN-KEYWORD,bookpan.top
-DOMAIN-KEYWORD,imetyou.top
+DOMAIN-SUFFIX,embypaul.top
+DOMAIN-SUFFIX,bookpan.top
+DOMAIN-SUFFIX,imetyou.top
 # P品云
-DOMAIN-KEYWORD,embyplus.club
+DOMAIN-SUFFIX,embyplus.club
 # Peach公益服
-DOMAIN-KEYWORD,embymv.tk
+DOMAIN-SUFFIX,embymv.tk
 IP-CIDR, 209.97.173.144/32,no-resolve
 # Polo
-DOMAIN-KEYWORD,poloemby.xyz
-DOMAIN-KEYWORD,pololine.ml
-DOMAIN-KEYWORD,dnslink.ml
+DOMAIN-SUFFIX,poloemby.xyz
 # Pornemby-网抑云
 IP-CIDR,195.201.86.86/32,no-resolve
 
@@ -78,27 +71,25 @@ IP-CIDR,195.201.86.86/32,no-resolve
 IP-CIDR, 136.243.73.179/32,no-resolve
 
 # 色拉
-DOMAIN-KEYWORD,emby.selaplane.com
+DOMAIN-SUFFIX,selaplane.com
 # Studyfun
-DOMAIN-KEYWORD,studyfun999.xyz
-DOMAIN-KEYWORD,studyfun.live
+DOMAIN-SUFFIX,studyfun.live
 
 # T凸凸
-DOMAIN-KEYWORD,v.usxx.xyz
-DOMAIN-KEYWORD,v2.usxx.xyz
-DOMAIN-KEYWORD,xxlife.gay
+DOMAIN-SUFFIX,usxx.xyz
+DOMAIN-SUFFIX,xxlife.gay
 
 # Viper
-DOMAIN-KEYWORD,agon.cf
+DOMAIN-SUFFIX,agon.cf
 # V6
-DOMAIN-KEYWORD,cybera.top
+DOMAIN-SUFFIX,cybera.top
 
 # Y野鸡服
 IP-CIDR,152.67.227.57/32,no-resolve
-DOMAIN-KEYWORD,20120714.xyz
+DOMAIN-SUFFIX,20120714.xyz
 
 # Z纸片人
-DOMAIN-KEYWORD,embyplus.org
+DOMAIN-SUFFIX,embyplus.org
 DOMAIN,gd.9521732.xyz
 
 # 通用
