@@ -1,16 +1,12 @@
 # Acemby
 DOMAIN-KEYWORD,acemby.org
 DOMAIN-KEYWORD,zoxi.org
+DOMAIN-KEYWORD,zox.show
+
 
 # BDD
 DOMAIN-KEYWORD,bddup.com
 IP-CIDR,124.95.187.106/32,no-resolve
-# BlueSea
-DOMAIN-KEYWORD,blueseamusics.com
-DOMAIN-KEYWORD,blueseacdn.com
-DOMAIN-KEYWORD,bsem.ddns.me
-# B白嫖王
-DOMAIN-KEYWORD,ywang.cf
 
 # Cc公益服
 DOMAIN-KEYWORD,ccemby.tk
