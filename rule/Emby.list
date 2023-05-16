@@ -13,7 +13,7 @@ IP-CIDR,124.95.187.106/32,no-resolve
 # Cc公益服
 DOMAIN-SUFFIX,ccemby.tk
 
-# Des
+# DES
 DOMAIN-SUFFIX,emby.kiyoginn.ml
 IP-CIDR,193.141.60.8/32,no-resolve
 
