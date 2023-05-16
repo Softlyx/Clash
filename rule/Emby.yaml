@@ -3,6 +3,9 @@ DOMAIN-SUFFIX,acemby.org
 DOMAIN-SUFFIX,zox.show
 DOMAIN-SUFFIX,zoxi.org
 
+# ACG
+IP-CIDR,204.10.194.55/32,no-resolve
+
 # BDD
 DOMAIN-SUFFIX,bddup.com
 IP-CIDR,124.95.187.106/32,no-resolve
