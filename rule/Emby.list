@@ -25,6 +25,9 @@ DOMAIN-SUFFIX,11pshare.tk
 DOMAIN-SUFFIX,semby.ink
 IP-CIDR,18.141.10.156/32,no-resolve
 
+# 好记观影
+DOMAIN-SUFFIX,003210.xyz
+
 # Hxd
 DOMAIN-SUFFIX,bili.rip
 
