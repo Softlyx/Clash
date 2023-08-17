@@ -38,7 +38,7 @@ DOMAIN-SUFFIX,emby.ml
 IP-CIDR,139.9.61.95/32,no-resolve
 
 # NMG Flim
-DOMAIN-SUFFIX,goodisp.org
+DOMAIN-SUFFIX,ohhhh.org
 
 # Magci
 DOMAIN-SUFFIX,freetz.top
