@@ -33,7 +33,7 @@ DOMAIN-SUFFIX,bili.rip
 DOMAIN-SUFFIX,ikoumi.com
 
 # L垃圾影音
-DOMAIN-SUFFIX,emby.ml
+DOMAIN-SUFFIX,xmsl.org
 # LION
 IP-CIDR,139.9.61.95/32,no-resolve
 DOMAIN-SUFFIX,233778.xyz
