@@ -1,30 +1,25 @@
-# Acemby
-DOMAIN-SUFFIX,acemby.org
-DOMAIN-SUFFIX,zox.show
-DOMAIN-SUFFIX,zoxi.org
-
-# ACG
-IP-CIDR,204.10.194.55/32,no-resolve
+#Aurora
+DOMAIN-SUFFIX,111564.xyz
 
 # BDD
 DOMAIN-SUFFIX,bddup.com
+DOMAIN-SUFFIX,topemby.com
 IP-CIDR,124.95.187.106/32,no-resolve
 
 # Cc公益服
 DOMAIN-SUFFIX,ccemby.tk
+DOMAIN-SUFFIX,carryz.net
 IP-CIDR,129.150.48.48/32,no-resolve
 
 # DES
 DOMAIN-SUFFIX,emby.kiyoginn.ml
 IP-CIDR,193.141.60.8/32,no-resolve
+IP-CIDR,38.147.170.103/32,no-resolve
 
 # G国际服
 DOMAIN-SUFFIX,11pshare.tk
 DOMAIN-SUFFIX,semby.ink
 IP-CIDR,18.141.10.156/32,no-resolve
-
-# 好记观影
-DOMAIN-SUFFIX,003210.xyz
 
 # Hxd
 DOMAIN-SUFFIX,bili.rip
@@ -38,49 +33,35 @@ DOMAIN-SUFFIX,xmsl.org
 IP-CIDR,139.9.61.95/32,no-resolve
 DOMAIN-SUFFIX,233778.xyz
 
-# NMG Flim
-DOMAIN-SUFFIX,ohhhh.org
-
 # Magci
 DOMAIN-SUFFIX,freetz.top
 # MJJ EMBY
 DOMAIN-SUFFIX,mjjemby.org
-# Misty
-DOMAIN-SUFFIX,misty.ltd
-# Misakaf
-DOMAIN-SUFFIX,misakaf.org
+
+# NMG Flim
+DOMAIN-SUFFIX,ohhhh.org
 
 # Odyssey+
 DOMAIN-SUFFIX, odysseyplus.site
 
 # Paul
-DOMAIN-SUFFIX,embypaul.top
-DOMAIN-SUFFIX,bookpan.top
 DOMAIN-SUFFIX,imetyou.top
 # Peach公益服
 DOMAIN-SUFFIX,embymv.tk
 IP-CIDR, 209.97.173.144/32,no-resolve
 # Polo
 DOMAIN-SUFFIX,poloemby.xyz
+DOMAIN-SUFFIX,polodns.xyz
 # Pornemby-网抑云
 IP-CIDR,195.201.86.86/32,no-resolve
 
-# 忍者
-IP-CIDR, 136.243.73.179/32,no-resolve
-
-# Studyfun
-DOMAIN-SUFFIX,studyfun.live
 
 # 特卡
 DOMAIN-SUFFIX,carlos.trade
-# 凸凸
-DOMAIN-SUFFIX,usxx.xyz
-DOMAIN-SUFFIX,xxlife.gay
+
 # TreeDiagram
 DOMAIN-SUFFIX,789.123456.al
 
-# Viper
-DOMAIN-SUFFIX,agon.cf
 # V6
 DOMAIN-SUFFIX,cybera.top
 
@@ -91,6 +72,11 @@ DOMAIN-SUFFIX,20120714.xyz
 # Z纸片人
 DOMAIN-SUFFIX,embyplus.org
 DOMAIN,gd.9521732.xyz
+
+# Zox
+DOMAIN-SUFFIX,zox.show
+DOMAIN-SUFFIX,http://5.78.74.124
+IP-CIDR,5.78.74.124/32,no-resolve
 
 # 通用
 DOMAIN-KEYWORD,emby
