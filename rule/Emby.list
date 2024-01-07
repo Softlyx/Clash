@@ -17,9 +17,8 @@ IP-CIDR,193.141.60.8/32,no-resolve
 IP-CIDR,38.147.170.103/32,no-resolve
 
 # G国际服
-DOMAIN-SUFFIX,11pshare.tk
-DOMAIN-SUFFIX,semby.ink
-IP-CIDR,18.141.10.156/32,no-resolve
+DOMAIN-SUFFIX,happyav.eu.org
+IP-CIDR,138.2.88.132/32,no-resolve
 
 # Hxd
 DOMAIN-SUFFIX,bili.rip
