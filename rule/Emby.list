@@ -76,8 +76,6 @@ DOMAIN,gd.9521732.xyz
 
 # Zox
 DOMAIN-SUFFIX,zox.show
-DOMAIN-SUFFIX,http://5.78.74.124
-IP-CIDR,5.78.74.124/32,no-resolve
 
 # 通用
 DOMAIN-KEYWORD,emby
