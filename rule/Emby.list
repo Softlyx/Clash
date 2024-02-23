@@ -48,6 +48,7 @@ DOMAIN-SUFFIX, odysseyplus.site
 DOMAIN-SUFFIX,imetyou.top
 # Peach公益服
 DOMAIN-SUFFIX,peachmv.me
+DOMAIN-SUFFIX,embymv.tk
 IP-CIDR, 209.97.173.144/32,no-resolve
 # Polo
 DOMAIN-SUFFIX,poloemby.xyz
