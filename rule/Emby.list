@@ -87,3 +87,4 @@ DOMAIN-KEYWORD,plex
 
 # Plex
 IP-CIDR,132.226.172.227/32,no-resolve
+IP-CIDR,131.186.30.213/32,no-resolve
