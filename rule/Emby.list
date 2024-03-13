@@ -69,7 +69,7 @@ DOMAIN-SUFFIX,285286.xyz
 DOMAIN-SUFFIX,789.123456.al
 
 # V6
-DOMAIN-SUFFIX,cybera.top
+# DOMAIN-SUFFIX,cybera.top
 
 # Y野鸡服
 IP-CIDR,152.67.227.57/32,no-resolve
