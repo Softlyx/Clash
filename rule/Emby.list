@@ -75,6 +75,9 @@ IP-CIDR,195.201.86.86/32,no-resolve
 # 叔服
 DOMAIN-SUFFIX,mcjoker.xyz
 
+# 探花
+DOMAIN-SUFFIX,chenxingyu.site
+
 # 特卡
 DOMAIN-SUFFIX,carlos.trade
 
