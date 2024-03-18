@@ -33,8 +33,6 @@ DOMAIN-SUFFIX,xmsl.org
 IP-CIDR,139.9.61.95/32,no-resolve
 DOMAIN-SUFFIX,233778.xyz
 
-# Magci
-DOMAIN-SUFFIX,freetz.top
 # MJJ EMBY
 DOMAIN-SUFFIX,mjjemby.org
 
@@ -66,7 +64,6 @@ DOMAIN-SUFFIX,mcjoker.xyz
 DOMAIN-SUFFIX,carlos.trade
 # Temby
 DOMAIN-SUFFIX,285286.xyz
-
 # TreeDiagram
 DOMAIN-SUFFIX,789.123456.al
 
