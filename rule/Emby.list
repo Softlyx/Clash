@@ -1,3 +1,7 @@
+# Apopemby
+DOMAIN-SUFFIX,apopcloud.com
+DOMAIN-SUFFIX,apopcloud.me
+
 # Aurora
 DOMAIN-SUFFIX,111564.xyz
 
@@ -11,6 +15,9 @@ DOMAIN-SUFFIX,coemn.com
 DOMAIN-SUFFIX,ccemby.tk
 DOMAIN-SUFFIX,carryz.net
 IP-CIDR,129.150.48.48/32,no-resolve
+
+# Cherryemby
+DOMAIN-SUFFIX,cherrytv.one
 
 # DES
 DOMAIN-SUFFIX,emby.kiyoginn.ml
@@ -29,6 +36,7 @@ DOMAIN-SUFFIX,ikoumi.com
 
 # L垃圾影音
 DOMAIN-SUFFIX,xmsl.org
+
 # LION
 IP-CIDR,139.9.61.95/32,no-resolve
 DOMAIN-SUFFIX,233778.xyz
@@ -39,21 +47,28 @@ DOMAIN-SUFFIX,mjjemby.org
 # NMG Flim
 DOMAIN-SUFFIX,ohhhh.org
 
+# Nyaemby
+DOMAIN-SUFFIX,bangumi.ca
+
 # Odyssey+
 DOMAIN-SUFFIX, odysseyplus.site
 
 # Paul
 DOMAIN-SUFFIX,imetyou.top
+
 # Peach公益服
 DOMAIN-SUFFIX,peachmv.me
 DOMAIN-SUFFIX,embymv.tk
 IP-CIDR, 209.97.173.144/32,no-resolve
+
 # PiliPili
 DOMAIN-SUFFIX,pilipiliultra.top
 DOMAIN-SUFFIX,pilipiliultra.com
+
 # Polo
 DOMAIN-SUFFIX,poloemby.xyz
 DOMAIN-SUFFIX,polodns.xyz
+
 # Pornemby-网抑云
 IP-CIDR,195.201.86.86/32,no-resolve
 
@@ -62,8 +77,10 @@ DOMAIN-SUFFIX,mcjoker.xyz
 
 # 特卡
 DOMAIN-SUFFIX,carlos.trade
+
 # Temby
 DOMAIN-SUFFIX,285286.xyz
+
 # TreeDiagram
 DOMAIN-SUFFIX,789.123456.al
 
