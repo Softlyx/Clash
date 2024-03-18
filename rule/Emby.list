@@ -59,6 +59,8 @@ DOMAIN-SUFFIX,polodns.xyz
 # Pornemby-网抑云
 IP-CIDR,195.201.86.86/32,no-resolve
 
+# 叔服
+DOMAIN-SUFFIX,mcjoker.xyz
 
 # 特卡
 DOMAIN-SUFFIX,carlos.trade
