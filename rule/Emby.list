@@ -63,6 +63,7 @@ DOMAIN-SUFFIX,imetyou.top
 DOMAIN-SUFFIX,peachmv.me
 DOMAIN-SUFFIX,embymv.tk
 IP-CIDR, 209.97.173.144/32,no-resolve
+IP-CIDR, 193.123.232.141/32,no-resolve
 
 # PiliPili
 DOMAIN-SUFFIX,pilipiliultra.top
