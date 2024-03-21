@@ -24,6 +24,9 @@ DOMAIN-SUFFIX,emby.kiyoginn.ml
 IP-CIDR,193.141.60.8/32,no-resolve
 IP-CIDR,38.147.170.103/32,no-resolve
 
+# F放映厅
+DOMAIN-SUFFIX,9191001.xyz
+
 # G国际服
 DOMAIN-SUFFIX,happyav.eu.org
 IP-CIDR,138.2.88.132/32,no-resolve
