@@ -33,6 +33,7 @@ IP-CIDR,138.2.88.132/32,no-resolve
 
 # 观影乐园
 DOMAIN-SUFFIX,slove.info
+DOMAIN-SUFFIX,null.hair
 
 # Hxd
 DOMAIN-SUFFIX,bili.rip
