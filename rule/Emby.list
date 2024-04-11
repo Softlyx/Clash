@@ -27,6 +27,10 @@ IP-CIDR,38.147.170.103/32,no-resolve
 # F放映厅
 DOMAIN-SUFFIX,9191001.xyz
 
+# 飞跃彩虹
+DOMAIN-SUFFIX,152.53.19.231
+IP-CIDR,152.53.19.231/32,no-resolve
+
 # G国际服
 DOMAIN-SUFFIX,happyav.eu.org
 IP-CIDR,138.2.88.132/32,no-resolve
