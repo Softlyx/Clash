@@ -71,6 +71,7 @@ DOMAIN-SUFFIX,mcjoker.xyz
 
 # 探花
 DOMAIN-SUFFIX,tanhuatv.site
+IP-CIDR,152.53.67.239/32,no-resolve
 
 # 特卡
 DOMAIN-SUFFIX,carlos.trade
