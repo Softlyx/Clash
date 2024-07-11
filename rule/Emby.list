@@ -1,16 +1,8 @@
-# BDD
-DOMAIN-SUFFIX,bddup.com
-DOMAIN-SUFFIX,topemby.com
-IP-CIDR,124.95.187.106/32,no-resolve
-
 # Cc公益服
 DOMAIN-SUFFIX,coemn.com
 DOMAIN-SUFFIX,ccemby.tk
 DOMAIN-SUFFIX,carryz.net
 IP-CIDR,129.150.48.48/32,no-resolve
-
-# Cherryemby
-DOMAIN-SUFFIX,cherrytv.one
 
 # DES
 DOMAIN-SUFFIX,emby.kiyoginn.ml
@@ -34,12 +26,6 @@ DOMAIN-SUFFIX,bili.rip
 
 # ikoumi
 DOMAIN-SUFFIX,ikoumi.com
-
-# 开心服
-DOMAIN-SUFFIX,132.226.229.139
-DOMAIN-SUFFIX,130.162.128.132
-IP-CIDR,132.226.229.139/32,no-resolve
-IP-CIDR,130.162.128.132/32,no-resolve
 
 # L垃圾影音
 DOMAIN-SUFFIX,xmsl.org
@@ -92,9 +78,6 @@ DOMAIN-SUFFIX,285286.xyz
 # TreeDiagram
 DOMAIN-SUFFIX,789.123456.al
 
-# V6
-# DOMAIN-SUFFIX,cybera.top
-
 # Y野鸡服
 IP-CIDR,152.67.227.57/32,no-resolve
 DOMAIN-SUFFIX,20120714.xyz
@@ -108,6 +91,9 @@ DOMAIN,gd.9521732.xyz
 
 # Zox
 DOMAIN-SUFFIX,zox.show
+
+# 音乐
+DOMAIN-SUFFIX,mefun.org
 
 # 通用
 DOMAIN-KEYWORD,emby
