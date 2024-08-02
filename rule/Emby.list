@@ -2,24 +2,15 @@
 DOMAIN-SUFFIX,coemn.com
 DOMAIN-SUFFIX,ccemby.tk
 DOMAIN-SUFFIX,carryz.net
-IP-CIDR,129.150.48.48/32,no-resolve
+IP-CIDR,129.150.48.48/24,no-resolve
 
 # DES
 DOMAIN-SUFFIX,emby.kiyoginn.ml
-IP-CIDR,193.141.60.8/32,no-resolve
-IP-CIDR,38.147.170.103/32,no-resolve
+IP-CIDR,193.141.60.8/24,no-resolve
+IP-CIDR,38.147.170.103/24,no-resolve
 
 # F放映厅
 DOMAIN-SUFFIX,9191001.xyz
-
-# 飞跃彩虹
-DOMAIN-SUFFIX,152.53.19.231
-DOMAIN-SUFFIX,581658.best
-IP-CIDR,152.53.19.231/32,no-resolve
-
-# G国际服
-DOMAIN-SUFFIX,happyav.eu.org
-IP-CIDR,138.2.88.132/32,no-resolve
 
 # Hxd
 DOMAIN-SUFFIX,bili.rip
@@ -31,11 +22,8 @@ DOMAIN-SUFFIX,ikoumi.com
 DOMAIN-SUFFIX,xmsl.org
 
 # LION
-IP-CIDR,139.9.61.95/32,no-resolve
+IP-CIDR,139.9.61.95/24,no-resolve
 DOMAIN-SUFFIX,233778.xyz
-
-# MJJ EMBY
-DOMAIN-SUFFIX,mjjemby.org
 
 # NMG Flim
 DOMAIN-SUFFIX,hovervan.org
@@ -52,8 +40,8 @@ DOMAIN-SUFFIX,imetyou.top
 # Peach公益服
 DOMAIN-SUFFIX,peachmv.me
 DOMAIN-SUFFIX,embymv.tk
-IP-CIDR,209.97.173.144/32,no-resolve
-IP-CIDR,193.123.232.141/32,no-resolve
+IP-CIDR,209.97.173.144/24,no-resolve
+IP-CIDR,193.123.232.141/24,no-resolve
 
 # PiliPili
 DOMAIN-SUFFIX,pilipiliultra.top
@@ -64,14 +52,14 @@ DOMAIN-SUFFIX,poloemby.xyz
 DOMAIN-SUFFIX,polodns.xyz
 
 # Pornemby-网抑云
-IP-CIDR,195.201.86.86/32,no-resolve
+IP-CIDR,195.201.86.86/24,no-resolve
 
 # 叔服
 DOMAIN-SUFFIX,mcjoker.xyz
 
 # 探花
 DOMAIN-SUFFIX,tanhuatv.site
-IP-CIDR,152.53.67.239/32,no-resolve
+IP-CIDR,152.53.67.239/24,no-resolve
 
 # 特卡
 DOMAIN-SUFFIX,carlos.trade
@@ -83,11 +71,8 @@ DOMAIN-SUFFIX,285286.xyz
 DOMAIN-SUFFIX,789.123456.al
 
 # Y野鸡服
-IP-CIDR,152.67.227.57/32,no-resolve
+IP-CIDR,152.67.227.57/24,no-resolve
 DOMAIN-SUFFIX,20120714.xyz
-
-# Y野兽餐厅
-DOMAIN-SUFFIX,mius.uk
 
 # Z纸片人
 DOMAIN-SUFFIX,embyplus.org
@@ -106,8 +91,8 @@ DOMAIN-KEYWORD,alist
 DOMAIN-KEYWORD,plex
 
 # Plex
-IP-CIDR,132.226.172.227/32,no-resolve
-IP-CIDR,131.186.30.213/32,no-resolve
-IP-CIDR,213.35.124.140/32,no-resolve
-IP-CIDR,193.122.113.77/32,no-resolve
-IP-CIDR,140.238.13.166/32,no-resolve
+IP-CIDR,132.226.172.227/24,no-resolve
+IP-CIDR,131.186.30.213/24,no-resolve
+IP-CIDR,213.35.124.140/24,no-resolve
+IP-CIDR,193.122.113.77/24,no-resolve
+IP-CIDR,140.238.13.166/24,no-resolve
