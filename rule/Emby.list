@@ -12,6 +12,9 @@ IP-CIDR,38.147.170.103/24,no-resolve
 # F放映厅
 DOMAIN-SUFFIX,9191001.xyz
 
+# 红尘
+DOMAIN-SUFFIX,happyav.eu.org
+
 # Hxd
 DOMAIN-SUFFIX,bili.rip
 
@@ -54,22 +57,8 @@ IP-CIDR,195.201.86.86/24,no-resolve
 # 叔服
 DOMAIN-SUFFIX,mcjoker.xyz
 
-# 探花
-DOMAIN-SUFFIX,tanhuatv.site
-IP-CIDR,152.53.67.239/24,no-resolve
-
 # 特卡
 DOMAIN-SUFFIX,carlos.trade
-
-# Temby
-DOMAIN-SUFFIX,285286.xyz
-
-# TreeDiagram
-DOMAIN-SUFFIX,789.123456.al
-
-# Y野鸡服
-IP-CIDR,152.67.227.57/24,no-resolve
-DOMAIN-SUFFIX,20120714.xyz
 
 # Z纸片人
 DOMAIN-SUFFIX,embyplus.org
@@ -77,9 +66,6 @@ DOMAIN,gd.9521732.xyz
 
 # Zox
 DOMAIN-SUFFIX,zox.show
-
-# 音乐
-DOMAIN-SUFFIX,mefun.org
 
 # 通用
 DOMAIN-KEYWORD,emby
