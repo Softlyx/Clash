@@ -71,7 +71,6 @@ DOMAIN-SUFFIX,zox.show
 DOMAIN-KEYWORD,emby
 DOMAIN-KEYWORD,jellyfin
 DOMAIN-KEYWORD,alist
-DOMAIN-KEYWORD,plex
 
 # Plex
 IP-CIDR,64.110.82.59/24,no-resolve
