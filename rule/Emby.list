@@ -72,6 +72,13 @@ DOMAIN-KEYWORD,emby
 DOMAIN-KEYWORD,jellyfin
 DOMAIN-KEYWORD,alist
 
+# ---- Plex 强制优先规则 ----
+DOMAIN-SUFFIX,plex.tv
+DOMAIN-SUFFIX,plex.direct
+DOMAIN-SUFFIX,plexapp.com
+DOMAIN-SUFFIX,plexapp.net
+DOMAIN-KEYWORD,plex-media-server
+
 # Plex
 IP-CIDR,64.110.82.59/24,no-resolve
 IP-CIDR,132.226.172.227/24,no-resolve
